@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>aitrainer.co</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: KnightOne - v4.10.0
+  * Template URL: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0"><a href="index.html">aitrainer.co</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+          <a href="#about" class="get-started-btn scrollto">Get Started</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-8">
+          <h1>aitrainer.co</h1> 
+          <h1>AI Personalized Workout and Diet Plans</h1>
+          <h2>Harness the state-of-art AI to create the Perfect Workout and Diet Plan to achieve your fitness goals!</h2>
+          <a href="#info" class="get-started-btn scrollto"><h3>Get Started Now!</h3></a>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <h4>Are you tired of generic workout and diet plans that don't work for your specific needs? Introducing our AI Personalized Workout and Diet Plans, tailored to your body type, fitness level, and personal goals. Our state-of-the-art technology analyzes your unique characteristics and creates a customized plan that's optimized for maximum results.
+
+            Our plans are between  1500 words, providing in-depth information and guidance for every aspect of your fitness journey. From strength training to cardio, our plans cover everything you need to know to transform your body and mind. Here at aitrainer.co, we harness state-of-the-art Artifical Intelligence trained on vast amounts of written fitness text to produce easy to understand, implement and use workout and diet plans, to help you achieve your dream body and fitness goals right now! </h4>
+        </div>
+      </div>
+    </section><!-- End About Us Section -->
+    <!-- ======= Services Section ======= -->
+    <section id="info" class="info">
+      <form class="php-email-form">
+        <div class="d-grid gap-3">
+        <div class="form-group">
+        <input class="form-control" type="number" name="weight"  placeholder="Whats your weight (in kg) ?" required/>
+        </div>
+        <div class="form-group">
+        <input class="form-control" type="number" name="height"  placeholder="Whats your height (in cm) ?" required/>
+        </div>
+        <div class="form-group">
+        <input class="form-control" type="number" name="bf"  placeholder="What's your bodyfat percentage (estimate) ?" required/> 
+        </div>
+        <div class="form-group">
+          <label class="form-control" for="gl">Do you want to gain/lose weight?</label>  
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="gl" name="gl" rows="1" cols="1">
+            <option value="gain">Gain</option>
+            <option value="lose">Lose</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="number" name="gla" placeholder="How much kg do you want to lose/gain?" required/> 
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="number" name="days" placeholder="How many days can you train a week?" required/>
+        </div>
+        <div class="form-group">
+        <label class="form-control" for="cardio">Do you want to include cardio?</label>
+          <select class="form-control" id="cardio" name="cardio">
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+          </select>
+        </div> <div class="text-center"><button onclick="NewTab();chat();" class="get-started-btn scrollto" type="submit"><h3>Submit</h3></button></div>
+</div>
+      </form>
+    </section> 
+
+    <section id="AI" class="AI">
+      <div id="chat_container"></div>
+</section>
+    <!-- ======= Clients Section ======= 
+    <section id="clients" class="clients">
+      <div class="container">
+
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> End Clients Section
+  -->
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container">
+
+        <div class="text-center title">
+          <h3>What we have achieved so far</h3>
+        </div>
+
+        <div class="row counters position-relative">
+
+          <div class="col-lg-6 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="110" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-6 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="325" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Plans</p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact us regarding anything at mindbodysoulimprovement@gmail.com. Give us your feedback so we can improve the app!</p>
+        </div>
+      </div>
+
+      <div>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="ri-map-pin-line"></i>
+                <h4>Location:</h4>
+                <p> New York</p>
+              </div>
+
+              <div class="email">
+                <i class="ri-mail-line"></i>
+                <h4>Email:</h4>
+                <p>mindbodysoulimprovement@gmail.com</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>aitrainer.co</h3>
+      <p>AI Personalized Workout and Diet Plans</p>
+      <div class="copyright">
+        &copy; Copyright <strong><span>aitrainer.co</span></strong> All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/knight-simple-one-page-bootstrap-template/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="module" src="script.js"></script>
+  <script>
+    function NewTab() {
+        window.open(
+        "https://buy.stripe.com/7sI5m8fvo0TjbVSbIJ", "_blank");
+    }
+</script>
+<script>
+import bot from './assets/bot.svg'
+import user from './assets/user.svg'
+
+const form = document.querySelector('form')
+const chatContainer = document.querySelector('#chat_container')
+
+let loadInterval
+
+function loader(element) {
+    element.textContent = ''
+
+    loadInterval = setInterval(() => {
+        // Update the text content of the loading indicator
+        element.textContent += '.';
+
+        // If the loading indicator has reached three dots, reset it
+        if (element.textContent === '....') {
+            element.textContent = '';
+        }
+    }, 300);
+}
+
+function typeText(element, text) {
+    let index = 0
+
+    let interval = setInterval(() => {
+        if (index < text.length) {
+            element.innerHTML += text.charAt(index)
+            index++
+        } else {
+            clearInterval(interval)
+        }
+    }, 20)
+}
+
+// generate unique ID for each message div of bot
+// necessary for typing text effect for that specific reply
+// without unique ID, typing text will work on every element
+function generateUniqueId() {
+    const timestamp = Date.now();
+    const randomNumber = Math.random();
+    const hexadecimalString = randomNumber.toString(16);
+
+    return `id-${timestamp}-${hexadecimalString}`;
+}
+
+function chatStripe(isAi, value, uniqueId) {
+    return (
+        `
+        <div class="section-title">
+            <div class="chat">
+                <div  class="message" id=${uniqueId}><h4>${value}</h4></div>
+            </div>
+    </div>
+    `
+    )
+}
+
+const handleSubmit = async (e) => {
+    e.preventDefault()
+
+    const data = new FormData(form)
+    const weight = data.get('weight');
+    const height = data.get('height');
+    const bf = data.get('bf');
+    const gl = data.get('gl');
+    const gla = data.get('gla');
+    const days = data.get('days');
+    const cardio = data.get('cardio');
+    const prompt =`Writing a detailed 2700 word workout plan for an individual who is ${height} cm, ${weight} kg,${bf} percentage bodyfat ${gl} ${gla} kg. Include how to lose 1kg a week. The plan should include training 7 days a week. Incorporate ${cardio} cardio. please include sets and reps for exercises for each day. Include how many calories I should eat a day including marconutrient split and meal plan for a week. Also explain progressive overload.`;
+     // user's chatstripe
+    chatContainer.innerHTML += chatStripe(false, prompt)
+    
+    // to clear the textarea input 
+    form.reset()
+
+    // bot's chatstripe
+    const uniqueId = generateUniqueId()
+    chatContainer.innerHTML += chatStripe(true, " ", uniqueId)
+
+    // to focus scroll to the bottom 
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+
+    // specific message div 
+    const messageDiv = document.getElementById(uniqueId)
+
+    // messageDiv.innerHTML = "..."
+    loader(messageDiv)
+
+    const response = await fetch('https://aitrainerco.herokuapp.com/', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            prompt: prompt
+        })
+    })
+
+    clearInterval(loadInterval)
+    messageDiv.innerHTML = " "
+
+    if (response.ok) {
+        const data = await response.json();
+        const parsedData = data.bot.trim() // trims any trailing spaces/'\n' 
+
+        typeText(messageDiv, parsedData)
+    } else {
+        const err = await response.text()
+
+        messageDiv.innerHTML = "Something went wrong"
+        alert(err)
+    }
+}
+
+form.addEventListener('submit', handleSubmit)
+form.addEventListener('keyup', (e) => {
+    if (e.keyCode === 13) {
+        handleSubmit(e)
+    }
+})
+</script>
+</body>
+
+</html>
